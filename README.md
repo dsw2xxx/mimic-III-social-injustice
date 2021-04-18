@@ -172,18 +172,6 @@ Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
 Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
 
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* []()
-* []()
-* []()
-
-
-
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge

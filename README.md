@@ -1,17 +1,3 @@
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
-***
-***
-***
-*** To avoid retyping too much info. Do a search and replace for the following:
-*** github_username, repo_name, twitter_handle, email, project_title, project_description
--->
-
-
-
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -20,170 +6,115 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-<!--
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
--->
-[![LinkedIn][linkedin-shield]][linkedin-url]
+
+
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/dsw2xxx/mimic-III-social-injustice">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-  
-  <h4 align="center">Social Injustice in MIMIC-III</h4>
-  <h3 align="center">Racial Disparities in Medication Prescriptions</h3>
+   <img src="images/logo.png" alt="Logo">
 
-  <p align="left">
-  The project aims to detect the racial disparity in the MIMIC-III (Medical Information Mart for Intensive Care III) which is a large, freely-available database comprising deidentified health-related data associated with over forty thousand patients who stayed in critical care units of the Beth Israel Deaconess Medical Center between 2001 and 2012.
+  <h3 align="center">Racial Disparity in Medication Prescriptions in MIMIC-III</h3>
+
+  <p align="center">
+    <a href="https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia"><strong>Kaggle: Chest X-Ray Images (Pneumonia) »</strong></a>
+    <br />
+    </br>
+    <a href="https://github.com/jooyeongkang">Jooyeong Kang</a>
+    ・
+    <a href="https://github.com/">Shruti Hanchinal</a>
+    </br>
+    University of Texas at Austin
+    
   </p>
-  <br />
-<!--<a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-  <br />
-  <br />
-  <a href="https://github.com/github_username/repo_name">View Demo</a>
-  ·
-  <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-  ·
-  <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>-->
 </p>
 
 
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
+      <a href="#introduction">Introduction</a>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
+    <li><a href="#related-work">Related Work</a></li>
+    <li><a href="#methodology">Methodology</a></li>
+    <li><a href="#results">Results</a></li>
+    <li><a href="#conclusions">Conclusions</a></li>
   </ol>
 </details>
 
 
+<!-- INTRODUCTION -->
+## Introduction
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+Many studies have reported racial and ethnic disparities in health care in the United States. Racial and ethnic minorities, like Black, Hispanic, and Asian, are less likely to receive reasonable and appropriate medical care than a racial and ethnic majority, like White. One of the health services where racial and ethnic inequalities occur is medicine prescription. Several cases have identified that the racial and ethnic disparity in prescriptions among those with the same medical conditions results from the gap of insurance coverage between the majority ben- eficiaries and the minority beneficiaries. The minorities are less likely to pay for expensive medicines due to the limited access to full coverage insurance. How- ever, having equal insurance coverage does not guarantee that it reduces the racial and ethnic disparity in prescriptions. A variety of examples have reported that African Americans are less likely than White Americans with the same diagnoses to receive proper medications.
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
+Annually, a large number of people in the U.S. have died due to disparities in medical treatments. During the recent pandemic, COVID-19, the inequalities are getting more transparent. It has been revealed how dysfunctional medical systems in the U.S are with racial and ethnic disparities in health care services. Since diverse communities in the U.S have been promoting racial equity in so- ciety, the development of a monitoring system pursuing fair medical treatments for all racial and ethnic groups becomes necessary. Recently, artificial intelligence technology has actively been introduced to the health care domain. Advanced medical systems with machine learning have supported health care providers to make better decisions for high-quality care. Many people expect the adoption of AI technology to improve medical services with the belief that machines will be more objective and fair than humans. However, bias in machine learning has emerged as a new challenge to solve. Thus, monitoring racial and ethnic in- equalities is critical, particularly in health care systems, because medical tasks are closely associated with human lives and ethics. We believe that identifying racial and ethnic disparities in prescriptions using the MIMIC-III database will contribute to the development of responsible AI medical systems.
 
 
-### Built With
+<!-- RELATED WORK -->
+## Related Work
 
-* []()
-* []()
-* []()
+- Unequal Treatment: Confronting Racial and Ethnic Disparities in Health Care[1]
+- Designing and evaluating interventions to eliminate racial and ethnic dispar- ities in health care[2]
+- Interventions to Reduce Racial and Ethnic Disparities in Health Care[3]
 
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-To get a local copy up and running follow these simple steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
+Stakeholders in the health care domain, like patients, physicians, and pol- icymakers, are well aware of the existence of racial and ethnic disparities in medical treatments and how important it is to cooperate to design responsible medical systems. Also, they have attempted to reduce the inequalities, and rele- vant studies have suggested a variety of recommendations, such as encouraging health care providers to pursue racial and ethnic equity by giving incentives or improving the quality of communications within medical treatment systems. They have also asserted that the use of evidence-based decision-making systems should be required. In terms of patients, they have proposed that patients need to be educated to have the knowledge and understand how they can access and get involved in clinical service decisions through better education and empow- erment programs. Thus, the objective of this project is to suggest a monitoring system that tracks racial and ethnic disparity in medicine prescriptions and helps to reduce the disparity by providing practical communications within the stakeholders.
 
 
+<!-- METHODOLOGY -->
+## Methodology
+Our goal was to create a monitoring system that tracks unfair medication pre- scriptions received by racial minorities and informs health care service providers of the occurrence of the disparity by generating regular reports to communi- cate with the stakeholders for managing and keeping medical systems fair. Our prototype was written in Python language, and MIMIC-III(Medical Information Mart for Intensive Care III) database was used that is a large, freely-available database comprising de-identified health-related data associated with over forty thousand patients who stayed in critical care units of the Beth Israel Deaconess Medical Center between 2001 and 2012. The MIMIC-III database consists of 26 tables that have various types of data about patients who stayed in intensive care units.
 
-<!-- USAGE EXAMPLES -->
-## Usage
+In this project, three tables were used to investigate racial and ethnic dispar- ity in medication prescriptions: ADMISSIONS having admission records, PA- TIENTS having demographic data, and PRESCRIPTIONS having prescription logs. We cleaned up by removing unnecessary categories and combined these three tables to produce new tables. The new tables comprised only the neces- sary and newly calculated values and patients with the same diagnoses based on the diagnosis category in the ADMISSION table. For example, one of the tables contained only patients who were diagnosed with Pneumonia when they were admitted. We only referred to the top 10 diagnoses that most patients in the MIMIC-III database were diagnosed with, excluding the Newborn category that had few impacts on the disparity. Although we grouped patients based only on diagnosis category to create the new tables, it is available to group patients based on a variety of combinations of different criteria.
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+The number of drug types is so large, some of which are linked to only one patient, that we grouped patients in each diagnosis table on the basis of the top 10 drugs that most patients were prescribed in each group. We calculated the mean number of each medication prescription per race. The average values were used to identify whether the disparity in the prescriptions among racial groups exists. Racial groups comprised four groups: Whites, Blacks, Hispanic, and Asian. The data distribution was imbalanced according to each racial group since White patients were far more than the other ethnic groups. Therefore, we used a statistical method, Analysis of Variance(ANOVA), to compare the mean values of these four imbalanced racial groups.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+<p align="center">
+   <img src="images/fig1.png" alt="Fig1">
+   </br>
+   Fig.1. workflow
+</p>
+
+<!-- RESULTS -->
+## Results
+
+According to the significance values(p-value) calculated through the ANOVA method, the disparity in medication prescriptions among different racial groups existed and varied depending on diagnoses and medications. Although the occur- rences of the disparity were fewer than we thought, we were able to confirm the disparity. In this experiment, only the categories of diagnosis in ADMISSIONS and drug in PRESCRIPTIONS were used to group patients. The addition of different categories, like age, as criteria may be helpful to examine potential disparities in prescriptions with more details. Referring to the reports made by the system, health care providers can take care of patients with appropriate prescriptions, reducing inequality regardless of whether they intend or not.
 
 
+<!-- CONCLUSIONS -->
+## Conclusions
 
-<!-- ROADMAP -->
-## Roadmap
+Our project is to design a system that investigates racial and ethnic disparity in medication prescriptions to promote fair health care treatments to all racial groups. The MIMIC-III database was used to build the system, which includes valuable information about medical care received by various types of patients. We explored and preprocessed the database to generate new tables grouped by patients with the same diagnoses and the prescribed medications to disclose the disparity. The statistical method called Analysis of Variance(ANOVA) was used to examine whether the disparity in drug prescriptions between racial majority and minority groups exists on the condition where the number of White patients was more than the ones of the minority groups.
+The system we developed has the potential to be a baseline system to evaluate how responsibly the operation of health care systems work. The system can be used to observe racial disparities in other clinical treatments, such as length of stay in ICU or surgery services with respect to racial groups, though further research is needed. We believe that this system can help health care providers to manage patients more efficiently and take care of all patients responsibly, no matter what their ethnicity is.
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
+
+<!-- REFERENCES -->
+## References
+1. Nelson, A.: Unequal treatment: confronting racial and ethnic disparities in health care. Journal of the National Medical Association 94(8) (2002) 666
+2. Cooper, L.A., Hill, M.N., Powe, N.R.: Designing and evaluating interventions to eliminate racial and ethnic disparities in health care. Journal of general internal medicine 17(6) (2002) 477–486
+3. Chin, M.H., Walters, A.E., Cook, S.C., Huang, E.S.: Interventions to reduce racial and ethnic disparities in health care (2007)
 
 
 
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Jooyeong Kang - [Email](j.kang@utexas.edu)
-
-Project Link: [https://github.com/jooyeongkang/social-injustice-mimic-III](https://github.com/jooyeongkang/social-injustice-mimic-III)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jooyeongkang/
-
+[product-screenshot]: images/screenshot.png

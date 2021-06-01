@@ -14,7 +14,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-   <img src="images/logo.png" alt="Logo">
+   <img src="images/logo.png" alt="Logo" width=30% height=auto>
 
   <h3 align="center">Racial Disparity in Medication Prescriptions in MIMIC-III</h3>
 

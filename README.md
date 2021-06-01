@@ -19,7 +19,7 @@
   <h3 align="center">Racial Disparity in Medication Prescriptions in MIMIC-III</h3>
 
   <p align="center">
-    <a href="https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia"><strong>Kaggle: Chest X-Ray Images (Pneumonia) »</strong></a>
+    <a href="https://mimic.mit.edu"><strong>MIMIC-III »</strong></a>
     <br />
     </br>
     <a href="https://github.com/jooyeongkang">Jooyeong Kang</a>

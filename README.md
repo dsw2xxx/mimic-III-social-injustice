@@ -22,9 +22,9 @@
     <a href="https://mimic.mit.edu"><strong>MIMIC-III »</strong></a>
     <br />
     </br>
-    <a href="https://github.com/jooyeongkang">Jooyeong Kang</a>
+    <a href="https://www.linkedin.com/in/jooyeongkang/">Jooyeong Kang</a>
     ・
-    <a href="https://github.com/">Shruti Hanchinal</a>
+    <a href="https://www.linkedin.com/in/shruti-hanchinal-547870bb/">Shruti Hanchinal</a>
     </br>
     University of Texas at Austin
     

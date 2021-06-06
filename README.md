@@ -75,7 +75,7 @@ In this project, three tables were used to investigate racial and ethnic dispar-
 The number of drug types is so large, some of which are linked to only one patient, that we grouped patients in each diagnosis table on the basis of the top 10 drugs that most patients were prescribed in each group. We calculated the mean number of each medication prescription per race. The average values were used to identify whether the disparity in the prescriptions among racial groups exists. Racial groups comprised four groups: Whites, Blacks, Hispanic, and Asian. The data distribution was imbalanced according to each racial group since White patients were far more than the other ethnic groups. Therefore, we used a statistical method, Analysis of Variance(ANOVA), to compare the mean values of these four imbalanced racial groups.
 
 <p align="center">
-   <img src="images/fig1.png" alt="Fig1">
+   <img src="images/fig1.jpeg" alt="Fig1">
    </br>
    Fig.1. workflow
 </p>
